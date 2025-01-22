@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #1a202c; /* Dark gray background */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left Section */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-left img {
+  height: 32px;
+}
+
+.navbar-links a {
+  color: #a0aec0; /* Light gray */
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: white; /* Change to white on hover */
+}
+
+.navbar-links a.active {
+  color: white; /* Active link color */
+  font-weight: bold;
+}
+
+/* Right Section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.new-job-btn {
+  background-color: #4a90e2; /* Blue button */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.new-job-btn:hover {
+  background-color: #357ac8; /* Darker blue on hover */
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: #a0aec0; /* Light gray */
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+.icon:hover {
+  fill: white; /* White on hover */
+}
+
+.avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
